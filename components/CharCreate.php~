@@ -22,7 +22,7 @@ class CharCreate extends ComponentBase
     }
     
     public function onRun() {
-    	  $this->races = $this->page['races'] = Race::with('planet', 'planet.planet_image')->get();
+    	  $this->races = $this->page['races'] = Race::with('planet')->get();
     }
 
 }

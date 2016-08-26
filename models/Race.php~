@@ -29,4 +29,9 @@ class Race extends Model
     
     public $belongsTo = ['planet' => 'Rpg\Mmorpg\Models\Planet'];
     
+    public function getPlanetIdOptions()
+    {
+	 	return Planet::lists('id','name');	    
+    }
+    
 }
