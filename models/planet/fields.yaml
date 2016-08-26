@@ -1,0 +1,19 @@
+fields:
+    name:
+        label: Название
+        span: full
+        type: text
+    description:
+        label: Описание
+        size: small
+        span: auto
+        type: textarea
+    planet_image:
+        label: Картинка
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

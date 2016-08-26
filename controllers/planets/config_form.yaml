@@ -1,0 +1,10 @@
+name: Planets
+form: $/rpg/mmorpg/models/planet/fields.yaml
+modelClass: Rpg\Mmorpg\Models\Planet
+defaultRedirect: rpg/mmorpg/planets
+create:
+    redirect: 'rpg/mmorpg/planets/update/:id'
+    redirectClose: rpg/mmorpg/planets
+update:
+    redirect: rpg/mmorpg/planets
+    redirectClose: rpg/mmorpg/planets

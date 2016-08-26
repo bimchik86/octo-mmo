@@ -1,0 +1,16 @@
+plugin:
+    name: 'rpg.mmorpg::lang.plugin.name'
+    description: 'rpg.mmorpg::lang.plugin.description'
+    author: RPG
+    icon: oc-icon-beer
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: MMO
+        url: rpg/mmorpg/planets
+        icon: icon-beer
+        sideMenu:
+            side-menu-item:
+                label: Планеты
+                url: rpg/mmorpg/planets
+                icon: icon-globe

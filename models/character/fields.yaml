@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: Ник
+        span: auto
+        type: text

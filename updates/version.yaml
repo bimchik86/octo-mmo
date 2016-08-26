@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table rpg_mmorpg_characters'
+    - builder_table_create_rpg_mmorpg_characters.php
+1.0.3:
+    - 'Created table rpg_mmorpg_races'
+    - builder_table_create_rpg_mmorpg_races.php
+1.0.4:
+    - 'Created table rpg_mmorpg_classes'
+    - builder_table_create_rpg_mmorpg_classes.php
+1.0.5:
+    - 'Updated table rpg_mmorpg_characters'
+    - builder_table_update_rpg_mmorpg_characters.php
+1.0.6:
+    - 'Created table rpg_mmorpg_planets'
+    - builder_table_create_rpg_mmorpg_planets.php
+1.0.7:
+    - 'Created table rpg_mmorpg_locations'
+    - builder_table_create_rpg_mmorpg_locations.php
+1.0.8:
+    - 'Created table rpg_mmorpg_items'
+    - builder_table_create_rpg_mmorpg_items.php
+1.0.9:
+    - 'Created table rpg_mmorpg_monsters'
+    - builder_table_create_rpg_mmorpg_monsters.php
+1.0.10:
+    - 'Updated table rpg_mmorpg_races'
+    - builder_table_update_rpg_mmorpg_races.php
