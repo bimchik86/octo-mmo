@@ -8,3 +8,7 @@ fields:
         size: small
         span: full
         type: textarea
+    planet_id:
+        label: 'Родная планета'
+        span: auto
+        type: dropdown

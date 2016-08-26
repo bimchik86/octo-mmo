@@ -1,6 +1,7 @@
 <?php namespace Rpg\Mmorpg\Models;
 
 use Model;
+use Rpg\Mmorpg\Models\Planet;
 
 /**
  * Model
@@ -25,4 +26,12 @@ class Race extends Model
      * @var string The database table used by the model.
      */
     public $table = 'rpg_mmorpg_races';
+    
+    public $hasOne = ['planet' => 'Rpg\Mmorpg\Models\Planet'];
+    
+    public function getPlanetIdOptions()
+    {
+	 	return Planet::lists('name');	    
+    }
+    
 }

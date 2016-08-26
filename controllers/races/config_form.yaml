@@ -1,0 +1,10 @@
+name: Races
+form: $/rpg/mmorpg/models/race/fields.yaml
+modelClass: Rpg\Mmorpg\Models\Race
+defaultRedirect: rpg/mmorpg/races
+create:
+    redirect: 'rpg/mmorpg/races/update/:id'
+    redirectClose: rpg/mmorpg/races
+update:
+    redirect: rpg/mmorpg/races
+    redirectClose: rpg/mmorpg/races

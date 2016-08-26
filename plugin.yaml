@@ -14,3 +14,11 @@ navigation:
                 label: Планеты
                 url: rpg/mmorpg/planets
                 icon: icon-globe
+            side-menu-item2:
+                label: Расы
+                url: rpg/mmorpg/races
+                icon: icon-android
+            side-menu-item3:
+                label: Классы
+                url: rpg/mmorpg/classes
+                icon: icon-sitemap

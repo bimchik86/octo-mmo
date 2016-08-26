@@ -1,0 +1,10 @@
+name: Classes
+form: $/rpg/mmorpg/models/charclass/fields.yaml
+modelClass: Rpg\Mmorpg\Models\CharClass
+defaultRedirect: rpg/mmorpg/classes
+create:
+    redirect: 'rpg/mmorpg/classes/update/:id'
+    redirectClose: rpg/mmorpg/classes
+update:
+    redirect: rpg/mmorpg/classes
+    redirectClose: rpg/mmorpg/classes

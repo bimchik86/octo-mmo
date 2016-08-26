@@ -1,0 +1,11 @@
+list: $/rpg/mmorpg/models/charclass/columns.yaml
+modelClass: Rpg\Mmorpg\Models\CharClass
+title: Classes
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'rpg/mmorpg/classes/update/:id'

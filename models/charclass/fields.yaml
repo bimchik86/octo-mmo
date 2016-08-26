@@ -1,0 +1,39 @@
+fields:
+    name:
+        label: Название
+        span: auto
+        type: text
+    description:
+        label: Описание
+        size: small
+        span: auto
+        type: textarea
+    strength:
+        label: Сила
+        span: auto
+        type: number
+    dexterity:
+        label: Ловкость
+        span: auto
+        type: number
+    vitality:
+        label: Жизнеспособность
+        span: auto
+        type: number
+    education:
+        label: Обучаемость
+        span: auto
+        type: number
+    race_id:
+        label: Раса
+        span: auto
+        type: dropdown
+    class_image:
+        label: Картинка
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
