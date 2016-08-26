@@ -6,10 +6,7 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
-    		return [ 
-    			'Rpg\Mmorpg\Components\CharCreate' => 'CharCreate',
-    			'Rpg\Mmorpg\Components\CharSession' => 'CharSession' 
-    		];
+    		return [ 'Rpg\Mmorpg\Components\CharCreate' => 'CharCreate' ];
     }
 
     public function registerSettings()

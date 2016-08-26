@@ -1,0 +1,49 @@
+<?php namespace Rpg\Mmorpg\Components;
+
+use Session;
+use Cms\Classes\ComponentBase;
+use Rpg\Mmorpg\Models\Character;
+
+class CharSession extends ComponentBase
+{
+
+    public function componentDetails()
+    {
+        return [
+            'name'        => 'CharSession Component',
+            'description' => 'No description provided yet...'
+        ];
+    }
+
+    public function defineProperties()
+    {
+        return [];
+    }
+    
+    public function onRun()
+    {
+    	  if(Session::has('user_auth')) {
+    	  
+    	  		$userId = Session::get('user_auth.0');
+    	  		$character = Character::whereUserId($userId)->get()->toArray();
+    	  		
+    	  		if(isset($character) && !empty($character)) {
+    	  			Session::set('user.character.id', $character['id']);
+    	  		} 
+    	  		
+    	  		
+    	  		
+    	  		else {
+    	  			return Redirect::to('create');
+    	  		}
+    	  		var_dump(Session::all());
+    	  		die();
+    	  		$this->character = $this->page['character'] = Session::get('user.character');
+    	  
+    	  } 
+    	  else {
+		      return Redirect::to('login');		
+    	  }
+    }
+
+}
