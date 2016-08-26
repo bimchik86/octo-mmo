@@ -26,12 +26,7 @@ class CharClass extends Model
      * @var string The database table used by the model.
      */
     public $table = 'rpg_mmorpg_classes';
-    public $hasOne = ['race' => 'Rpg\Mmorpg\Models\Race'];
+    public $belongsTo = ['race' => 'Rpg\Mmorpg\Models\Race'];
 	 public $attachOne = ['class_image' => 'System\Models\File'];    
     
-    
-    public function getRaceIdOptions()
-    {
-	 	return Race::lists('name');	    
-    }
 }

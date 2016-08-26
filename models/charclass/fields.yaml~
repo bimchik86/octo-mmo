@@ -24,7 +24,7 @@ fields:
         label: Обучаемость
         span: auto
         type: number
-    race:
+    race_id:
         label: Раса
         span: auto
         type: relation
